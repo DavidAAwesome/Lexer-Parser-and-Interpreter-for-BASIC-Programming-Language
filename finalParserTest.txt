@@ -1,0 +1,9 @@
+label: var = RANDOM()
+GOSUB label
+FOR var = 0 TO 20 STEP 5
+NEXT var
+IF 20 < VAL("6") THEN label
+WHILE 5<6 endWhileLabel
+endWhileLabel: var = "nice"
+RETURN
+END

@@ -1,0 +1,17 @@
+DATA "Student1", 85, 90, 78, 92, 88
+DATA "Student2", 75, 82, 89, 94, 79
+DATA "Student3", 88, 91, 84, 79, 95
+DATA "Student4", 72, 86, 90, 77, 83
+DATA "Student5", 94, 88, 75, 81, 90
+
+FOR I = 0 TO 5
+  READ NAME$
+  TOTAL = 0
+  FOR J = 0 TO 5
+   READ GRADE
+   TOTAL = TOTAL + GRADE
+  NEXT J
+  AVERAGE = TOTAL / 5
+  PRINT NAME$, ": ", AVERAGE
+NEXT I
+END

@@ -1,0 +1,5 @@
+DATA "crying", 2, 4, 3.5
+READ VAR$, NUM, FOUR, THREEPOINTFIVE%
+DATA 756, 24.9
+READ question, val%
+END

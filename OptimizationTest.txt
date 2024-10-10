@@ -1,0 +1,5 @@
+DATA "peace", 10 , 15
+label: man = 5
+phantom: DATA "create", "hierarchy"
+bomb: save = 2
+var = nice

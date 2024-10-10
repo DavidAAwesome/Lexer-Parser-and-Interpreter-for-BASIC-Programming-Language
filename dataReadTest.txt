@@ -1,0 +1,2 @@
+DATA "peace", 10 , 15
+READ lol, can, man

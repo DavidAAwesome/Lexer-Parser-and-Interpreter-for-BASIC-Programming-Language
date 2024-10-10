@@ -1,0 +1,12 @@
+VAR = 5
+SWING$ = "NICETIES"
+BRING$ = SWING$
+RAND = 5
+SWING$ = NUM$(3.5)
+TWIG$ = NUM$(3)
+TRIANGLE% = VAL%("200.50")
+addition = 2 + 5
+addition2 = 2 + 5 * 3
+addition% = 2.0 + 3.0
+creation$ = LEFT$(BRING$,VAR)
+END

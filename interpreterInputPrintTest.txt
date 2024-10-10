@@ -1,0 +1,3 @@
+INPUT "Give a string, integer and float", string$, integer, float%
+PRINT string$, integer, float%
+END
